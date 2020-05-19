@@ -1,4 +1,9 @@
 #!/usr/bin/python3
+'''
+Dumb comment
+'''
+
+
 class square():
     '''
     Square class
