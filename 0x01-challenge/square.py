@@ -21,21 +21,21 @@ class Square():
         return self.width * self.width
 
     def permiter_of_my_square(self):
-        '''
+        """""
         Perimeter
-        '''
+        """
         return (self.width * 4)
 
     def __str__(self):
-        '''
+        """
         to string
-        '''
+        """
         return "{}/{}".format(self.width, self.width)
 
 
 if __name__ == "__main__":
 
-    s = square(width=12, height=8)
+    s = Square(width=12, height=8)
     print(s)
     print(s.area_of_my_square())
-    print(s.permiter_of_My_Square())
+    print(s.permiter_of_my_square())
